@@ -50,7 +50,7 @@ client.connect(err => {
 
 
 
-app.get('/', (req, res) => {
+app.get('', (req, res) => {
   res.send('Hello World!')
 })
 
